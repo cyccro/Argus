@@ -1,0 +1,12 @@
+[package]
+name = "argus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "1.5.2", features = ["full"] }
+tokio = { version = "1.42.0", features = ["full"] }
+anyhow = "1.0.95"
+reqwest = "0.12.11"
+http = "1.2.0"
+yrl = { path = "./yrl/" }

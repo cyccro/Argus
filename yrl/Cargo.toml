@@ -1,0 +1,18 @@
+[package]
+name = "yrl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = "1.21.0"
+image = "0.25.5"
+pollster = "0.4.0"
+
+wgpu = { version = "23.0.1", features = [
+  "dx12",
+  "vulkan-portability",
+  "metal",
+  "glsl",
+  "webgl",
+] }
+winit = "0.30.7"
